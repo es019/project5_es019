@@ -1,0 +1,108 @@
+/*
+	Name : Mehanović Ešref
+	Course : CS412
+	Assignment : Project 5
+	Due date : 05.11.2020.
+	Purpose : Add style to resume
+*/
+
+body, html 
+	{
+    	margin: 0px;
+    	padding: 60px;
+    	/*
+    	background: url('kyoko.png') no-repeat center fixed;     
+    	background-size: cover;
+    	*/
+
+    	/*background-color: #F3B05A;*/
+    	background-image: linear-gradient(to right, #F3B05A, #FBB825);
+    	font-family: 'Trebuchet MS';
+	}
+
+h1 ,h2
+	{
+		font-size : 40px;
+		text-align : center;
+		color :#FFFFFF;
+		background-color: #000000;
+	} 
+
+h3
+	{
+		font-size : 20px;
+		text-align : left;
+		color :#FFFFFF;
+		background-color: #000000;
+	} 
+
+p   {
+		text-align: justify;
+		color : yellow;
+		background-color: #000000;
+	}
+
+div.content{
+		max-width: 50%;
+  		margin: auto;
+  		text-align: justify;
+  		float: center;
+  		overflow: auto;
+  		padding: 20px;
+  		border-spacing: 20px;
+  		background-color: #000000;
+	}
+
+div.bottom{
+		max-width: 100%;
+  		margin: auto;
+  		left:0;
+  		float: center;
+  		overflow: auto;
+  		padding: 20px;
+  		border-spacing: 20px;
+  		background-color: #000000;
+	}
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 85%;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.center 
+	{
+  		display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+  		width: 85%;
+	}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 120px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: #FFFFFF;
+}
